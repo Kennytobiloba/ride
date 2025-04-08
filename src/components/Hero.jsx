@@ -4,30 +4,31 @@ import car from "../assets/car.jpg";
 
 const HeroSection = () => {
   return (
-    <section className="text-white py-16 px-4 sm:px-8">
+    <section className="text-white py-16 px-4 sm:px-8 bg-white">
       <div className="max-w-7xl mx-auto flex flex-col-reverse lg:flex-row items-center justify-between gap-12">
 
         {/* Left Content */}
         <div className="w-full lg:w-1/2 space-y-6">
           <h1 className="text-4xl sm:text-5xl font-extrabold leading-tight">
             Drive the Future. <br className="hidden sm:block" /> 
-            <span className="text-cyan-400">Ride the Change.</span>
+            <span className="text-green-600">Ride the Change.</span>
           </h1>
-          <p className="text-lg sm:text-xl text-gray-300">
-            GreenRide is building a cleaner, safer, and fairer ride-hailing experience.
+          <p className="text-lg sm:text-xl text-gray-600">
+            GreenRide is building a cleaner, safer, and fairer ride-hailing experience. 
+            With a commitment to sustainability, we aim to transform how people commute, 
+            reducing carbon footprints while providing an efficient and affordable solution.
           </p>
 
-          {/* CTA Buttons */}
-          <div className="flex flex-wrap gap-4 mt-6">
-            <button className="bg-cyan-500 hover:bg-cyan-600 text-white px-6 py-3 rounded-xl font-medium transition">
+          {/* CTA Button */}
+          <div className="mt-6">
+            <motion.button
+              className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-2xl font-bold text-lg transition transform"
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.95 }}
+              transition={{ type: "spring", stiffness: 300 }}
+            >
               Join the Movement
-            </button>
-            <button className="bg-white text-blue-900 hover:bg-gray-100 px-6 py-3 rounded-xl font-medium transition">
-              Become a Driver
-            </button>
-            <button className="border border-white hover:bg-white hover:text-blue-900 px-6 py-3 rounded-xl font-medium transition">
-              Partner with Us
-            </button>
+            </motion.button>
           </div>
         </div>
 
@@ -41,7 +42,7 @@ const HeroSection = () => {
           <motion.img
             src={car}
             alt="GreenRide Car"
-            className="w-full max-w-md mx-auto mix-blend-lighten brightness-110"
+            className="w-full max-w-md mx-auto"
             whileHover={{ scale: 1.05 }}
             transition={{ type: "spring", stiffness: 200 }}
           />
