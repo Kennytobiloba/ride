@@ -4,7 +4,7 @@ import car from "../assets/car.jpg";
 
 const HeroSection = () => {
   return (
-    <section className="text-white py-16 px-4 sm:px-8 bg-white">
+    <section className="text-white py-16 px-4 sm:px-8 ">
       <div className="max-w-7xl mx-auto flex flex-col-reverse lg:flex-row items-center justify-between gap-12">
 
         {/* Left Content */}
@@ -13,7 +13,7 @@ const HeroSection = () => {
             Drive the Future. <br className="hidden sm:block" /> 
             <span className="text-green-600">Ride the Change.</span>
           </h1>
-          <p className="text-lg sm:text-xl text-gray-600">
+          <p className="text-lg sm:text-xl text-white">
             GreenRide is building a cleaner, safer, and fairer ride-hailing experience. 
             With a commitment to sustainability, we aim to transform how people commute, 
             reducing carbon footprints while providing an efficient and affordable solution.
