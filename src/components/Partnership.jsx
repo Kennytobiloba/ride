@@ -2,7 +2,7 @@ import React from 'react';
 
 const Partnership = () => {
   return (
-    <section className="bg-[#112923] text-white py-16 px-6 sm:px-8">
+    <section id='partnership' className=" text-white py-16 px-6 sm:px-8">
       <div className="max-w-7xl mx-auto space-y-12">
         {/* Title */}
         <h1 className="text-4xl sm:text-5xl font-extrabold text-center text-green-400">
@@ -12,7 +12,7 @@ const Partnership = () => {
         {/* For EV Manufacturers */}
         <div className="space-y-6">
           <h2 className="text-3xl font-bold text-green-400">For EV Manufacturers</h2>
-          <p className="text-lg sm:text-xl text-gray-300">
+          <p className="text-lg sm:text-xl text-black">
             Partner with us to supply vehicles for our fleet. GreenRide enables fast market access, branding, and recurring orders via our drive-to-own model. Together, we can accelerate the adoption of electric mobility and bring sustainable transport solutions to the masses.
           </p>
         </div>
@@ -20,10 +20,10 @@ const Partnership = () => {
         {/* For Investors */}
         <div className="space-y-6">
           <h2 className="text-3xl font-bold text-green-400">For Investors</h2>
-          <p className="text-lg sm:text-xl text-gray-300">
+          <p className="text-lg sm:text-xl text-black">
             GreenRide is tapping into a growing market at the intersection of mobility and sustainability. Let’s shape the future of ride-hailing together by investing in green technologies that drive long-term value and environmental impact.
           </p>
-          <p className="text-lg sm:text-xl text-gray-300">
+          <p className="text-lg sm:text-xl text-black">
             Request our pitch deck to learn more about the opportunities ahead.
           </p>
         </div>
@@ -31,7 +31,7 @@ const Partnership = () => {
         {/* For Governments & NGOs */}
         <div className="space-y-6">
           <h2 className="text-3xl font-bold text-green-400">For Governments & NGOs</h2>
-          <p className="text-lg sm:text-xl text-gray-300">
+          <p className="text-lg sm:text-xl text-black">
             We align with public transport goals, clean energy agendas, and local empowerment strategies. By partnering with GreenRide, we can work together to accelerate the shift to sustainable urban mobility.
           </p>
         </div>
