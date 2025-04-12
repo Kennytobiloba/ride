@@ -29,7 +29,7 @@ const AboutUs = () => {
             <p className="text-lg sm:text-xl text-black">
               We started small, with a few passionate minds, and have grown into a mission-driven team determined to build a cleaner and fairer mobility ecosystem. Our mission goes beyond just providing a ride—it's about creating a transportation solution that benefits the planet and the people who use it.
             </p>
-            <p className="text-lg sm:text-xl text-gray-black">
+            <p className="text-lg sm:text-xl text-black">
               At GreenRide, we’re focused on empowering drivers by offering fair wages, support, and recognition for their hard work. We ensure the safety of our passengers and drivers by adhering to rigorous safety standards and protocols. And, most importantly, we prioritize environmental sustainability by shifting the focus toward electric vehicles and green energy.
             </p>
           </div>

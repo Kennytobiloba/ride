@@ -6,7 +6,7 @@ const HeroSection = () => {
   return (
     <section
     id='home'
-      className="relative w-full h-[90vh] bg-cover bg-center text-white flex items-center justify-center px-4 sm:px-8 text-center"
+      className="relative w-full h-[90vh] bg-cover bg-center  text-white flex items-center justify-center px-4 sm:px-8 text-center"
       style={{ backgroundImage: `url(${bg})` }}
     >
       {/* Overlay */}
@@ -14,13 +14,13 @@ const HeroSection = () => {
 
       {/* Content */}
       <motion.div
-        className="relative z-10 max-w-3xl mx-auto flex flex-col items-center justify-center gap-6 w-full"
+        className="relative z-10 max-w-3xl mx-auto lg:mt-4 mt-16 flex flex-col items-center justify-center gap-6 w-full"
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, ease: "easeOut" }}
       >
         <motion.h1
-          className="text-4xl sm:text-5xl font-extrabold leading-tight"
+          className="text-4xl sm:text-5xl font-extrabold leading-tight mt-8 lg:mt-2"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2, duration: 0.8 }}

@@ -4,6 +4,9 @@ import Logo from "../assets/greenridelogo.png";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
+  // Function to handle closing the menu on mobile
+  const closeMenu = () => setIsOpen(false);
+
   return (
     <div className="w-full bg-white shadow-md fixed top-0 left-0 z-50">
       <nav className="max-w-7xl mx-auto px-4 sm:px-8 py-4">
@@ -87,6 +90,7 @@ const Navbar = () => {
                   key={item}
                   href={`#${item.toLowerCase().replace(" ", "")}`}
                   className="block px-3 py-2 rounded-md text-base font-medium text-green-800 hover:bg-green-100"
+                  onClick={closeMenu} // Close the menu when an item is clicked
                 >
                   {item}
                 </a>
