@@ -4,14 +4,9 @@ import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/f
 const Footer = () => {
   return (
     <footer className="bg-white text-black py-8 px-6 sm:px-8">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {/* Column 1 - Company Info */}
-        <div className="space-y-4">
-          <h3 className="text-2xl font-bold text-green-500">GreenRide</h3>
-          {/* <p className="text-lg text-gray-700">
-            Providing sustainable and innovative electric mobility solutions.
-          </p> */}
-        </div>
+      
 
         {/* Column 2 - Quick Links */}
         <div className="space-y-4">

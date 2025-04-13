@@ -17,7 +17,7 @@ const Sustainability = () => {
           <div className="space-y-4">
             <h2 className="text-3xl font-bold text-green-400">Why Electric Vehicles?</h2>
             <p className="text-lg sm:text-xl text-black">
-              EVs reduce emissions, save fuel costs, and are the future of urban transportation.
+              EVs reduce emissions, save fuel costs, and in the future of urban transportation.
             </p>
           </div>
 
@@ -42,14 +42,7 @@ const Sustainability = () => {
           </div>
         </div>
 
-        {/* Right Image */}
-        <div className="w-full lg:w-1/2">
-          <img
-            src={sustainabilityImg}
-            alt="Sustainability"
-            className="w-full h-auto rounded-2xl shadow-lg"
-          />
-        </div>
+       
       </div>
     </section>
   );

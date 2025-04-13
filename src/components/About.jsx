@@ -38,7 +38,7 @@ const AboutUs = () => {
         {/* Call-to-Action Section */}
         <div className="mt-8 text-center">
           <button className="mt-6 bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-xl font-medium transition duration-300">
-            Get Involved
+           <a href="#contact">Get Involved</a>
           </button>
         </div>
       </div>

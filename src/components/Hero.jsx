@@ -53,7 +53,7 @@ const HeroSection = () => {
             whileTap={{ scale: 0.95 }}
             transition={{ type: "spring", stiffness: 100 }}
           >
-            Join the Movement
+          <a href="#contact">Join the Movement</a>
           </motion.button>
 
           <motion.button

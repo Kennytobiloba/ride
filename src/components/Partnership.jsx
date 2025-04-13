@@ -39,13 +39,13 @@ const Partnership = () => {
         {/* Call-to-Actions */}
         <div className="flex justify-center gap-6 mt-8">
           <a
-            href="#"
+            href="#contact"
             className="bg-green-400 text-black px-6 py-3 text-lg font-semibold rounded-lg hover:bg-green-500 transition duration-300"
           >
             Partner with Us
           </a>
           <a
-            href="#"
+            href="#contact"
             className="bg-transparent border-2 border-green-400 text-green-400 px-6 py-3 text-lg font-semibold rounded-lg hover:bg-green-400 hover:text-black transition duration-300"
           >
             Let’s Talk

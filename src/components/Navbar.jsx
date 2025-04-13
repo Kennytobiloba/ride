@@ -14,7 +14,7 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex items-center space-x-3 group">
             <img src={Logo} alt="GreenRide Logo" className="w-10 h-10 object-contain" />
-            <span className="text-xl sm:text-2xl font-bold text-green-800">GreenRide</span>
+            <span className="text-xl sm:text-2xl font-bold text-black">GreenRide</span>
           </div>
 
           {/* Desktop Navigation */}
@@ -37,7 +37,7 @@ const Navbar = () => {
               <div className="absolute -inset-0.5 bg-gradient-to-r from-green-500 to-lime-400 rounded-lg blur opacity-60 group-hover:opacity-100 transition duration-200"></div>
               <div className="relative px-5 sm:px-7 py-2 sm:py-3 bg-green-800 rounded-lg leading-none flex items-center">
                 <div className="flex items-center space-x-2">
-                  <span className="text-green-200 group-hover:text-white transition duration-200">Get Started</span>
+                  <a href='#contact' className="text-green-200 group-hover:text-white transition duration-200">Get Started</a>
                   <svg
                     className="w-5 h-5 text-green-200 group-hover:text-white transform group-hover:translate-x-1 transition-all duration-200"
                     fill="none"
